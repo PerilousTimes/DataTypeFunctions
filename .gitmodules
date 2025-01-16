@@ -1,0 +1,3 @@
+[submodule "dependencies/AdvancedAccounts"]
+	path = dependencies/AdvancedAccounts
+	url = https://github.com/PerilousTimes/AdvancedAccounts
