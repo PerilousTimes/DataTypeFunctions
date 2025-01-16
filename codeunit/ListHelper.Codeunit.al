@@ -1,4 +1,4 @@
-codeunit 60052 "List"
+codeunit 60052 "List Helper"
 {
     // Same procedures repeated for different data types
 

@@ -1,4 +1,4 @@
-codeunit 60054 "JSON Tools"
+codeunit 60054 "JSON Helper"
 {
     procedure JsonToRec(JsonObject: JsonObject; Rec: Variant): Variant
     var
@@ -68,8 +68,8 @@ codeunit 60054 "JSON Tools"
         RecRef: RecordRef;
         FldRef: FieldRef;
         i: Integer;
-        Properties: JsonObject;
         JsonObject: JsonObject;
+        Properties: JsonObject;
     begin
         if not Rec.IsRecord then
             error('Parameter Rec is not a record');
