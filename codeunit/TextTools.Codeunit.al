@@ -1,4 +1,4 @@
-codeunit 60053 "Text Helper"
+codeunit 60053 "Text Tools"
 {
     // Updated
     procedure ExtractAlphabetic(InputText: Text) ResultText: Text
