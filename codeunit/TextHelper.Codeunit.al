@@ -9,7 +9,7 @@ codeunit 60053 "Text Helper"
         for CharIndex := 1 to StrLen(InputText) do begin
             CurrentChar := CopyStr(InputText, CharIndex, 1);
 
-            if IsNumeric(CurrentChar) then
+            if IsAlphabetic(CurrentChar) then
                 ResultText += CurrentChar;
         end;
     end;
