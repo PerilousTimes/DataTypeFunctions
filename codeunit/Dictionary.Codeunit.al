@@ -1,4 +1,4 @@
-codeunit 60000 Dictionary
+codeunit 60050 Dictionary
 {
     // HELLO WORLD, I AM UPDATED
     // Same procedures repeated for different data types

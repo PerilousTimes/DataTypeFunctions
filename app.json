@@ -16,8 +16,8 @@
   "application": "25.0.0.0",
   "idRanges": [
     {
-      "from": 60000,
-      "to": 60020
+      "from": 60050,
+      "to": 60099
     }
   ],
   "resourceExposurePolicy": {

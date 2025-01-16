@@ -1,4 +1,4 @@
-codeunit 60004 "Text Helper"
+codeunit 60053 "Text Helper"
 {
     procedure ExtractAlphanumeric(InputText: Text): Text
     var

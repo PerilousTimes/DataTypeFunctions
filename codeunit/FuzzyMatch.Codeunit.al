@@ -1,4 +1,4 @@
-codeunit 60002 "Fuzzy Match"
+codeunit 60051 "Fuzzy Match"
 {
     procedure FuzzyMatchReturnRatio(Word1: Text; Word2: Text): Decimal
     var
