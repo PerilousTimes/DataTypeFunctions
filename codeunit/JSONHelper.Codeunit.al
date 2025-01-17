@@ -167,12 +167,12 @@ codeunit 60054 "JSON Helper"
         exit(v);
     end;
 
-    local procedure GetJsonFieldName(FRef: FieldRef): Text
+    local procedure GetJsonFieldName(FldRef: FieldRef): Text
     var
         i: Integer;
         Name: Text;
     begin
-        Name := FRef.Name();
+        Name := FldRef.Name();
         for i := 1 to Strlen(Name) do begin
             if Name[i] < '0' then
                 Name[i] := '_';
